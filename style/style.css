@@ -1,0 +1,124 @@
+/* Start Variables */
+:root {
+
+}
+/* End Variables */
+/* start fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Anton&family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Fasthand&family=Fredoka+One&family=Gloria+Hallelujah&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nabla&family=Oleo+Script:wght@400;700&family=Poiret+One&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,800;1,900&family=Rubik+Burned&family=Tangerine:wght@400;700&display=swap');
+  /* font-family: 'Amiri Quran', serif;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Fasthand', cursive;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Nabla', cursive;
+  font-family: 'Oleo Script', cursive;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik Burned', cursive;
+  font-family: 'Tangerine', cursive; */
+/* end fonts  */
+
+/* Start Global Rules */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* End Global Rules */
+
+.header .uppHeader{
+  background-color: #8C8C8C;
+
+}
+.header .middleHeader{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #8C8C8C;
+  
+}
+
+.header .middleHeader ul{
+  list-style: none;
+}
+.header .middleHeader ul li{
+display: inline-block;
+}
+.header .middleHeader ul li a{
+color: black;
+background-color: #fff;
+font-size: 16px;
+font-weight: bold;
+margin-left: 10px;
+border-radius: 10px;
+padding: 5px;
+}
+.header .lastHeader .logo {
+
+}
+.header .lastHeader .logo img{
+  width: 200px;
+}
+.header .lastHeader .marquee {
+  position: absolute;
+  top: 148px;
+  right: -17px;
+  z-index: -1;
+}
+.header .lastHeader .marquee marquee{
+
+}
+
+.login{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btnLogin{
+  padding: 2px 21px;
+  color: #153e5f;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid black;
+  border-color: transparent black black transparent; 
+}
+.btnLogin a{
+
+  color: #153e5f;
+  text-decoration: none;
+
+}
